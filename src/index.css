@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  background-color: #DDF7E3;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+
+}
+.delete-btn{
+  font-size: 1.5rem;
+  color: #DF2E38;
+}
+.margin-top-adjust{
+  margin-top: -1rem;
+}
+.border-bottom{
+  border-bottom: 1px solid #C7E8CA;
+}
+.add-btn{
+  background-color: #DF2E38;
+  color: #f8f6f6;
+  outline: none;
+  border: none;
+  padding: 4px 8px;
+  border-radius: .4rem;
+}
+.font-blue{
+  /* color: rgb(5, 170, 192); */
+  color: #5D9C59;
+}
+.f-16{
+  font-size: 16px;
+}
+.f-14{
+  font-size: 14px;
+}
+.resume-form{
+  height: 100vh;
+  width: 45%;
+  background-color: #5D9C59;
+  color: #DDF7E3;
+  padding: 1rem;
+}
+.resume-form .builder .builder-div .form-input{
+  outline: none;
+  border: 1px solid rgb(145, 145, 145);
+  width: 45%;
+  border-radius: .2rem;
+  padding: .1rem .4rem;
+  background-color: #C7E8CA;
+  color: black;
+  
+}
+.resume-form h4{
+  margin-bottom: 1rem;
+}
+.resume-form .builder{
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.resume-form .builder::-webkit-scrollbar {
+  display: none;
+}
+.resume-form .builder .builder-div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding-bottom: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.resume-form .builder .builder-div .form-textarea{
+  width: 91%;
+  resize: none;
 }
+
+.temp{
+  outline: none;
+  border: 1px solid rgb(145, 145, 145);
+  width: 91%;
+  height: fit-content;
+  border-radius: .2rem;
+  padding: .1rem .4rem;
+  background-color: #C7E8CA;
+}
+.react-tags__selected-tag{
+  margin-right:6px;
+  margin-bottom: 6px;
+  border: none;
+}
+.react-tags__search-input{
+  width: 10rem !important;
+  background-color: #C7E8CA;
+  border: none;
+  outline: none;
+}
+
+.resume-preview{
+  width: 50%;
+  padding: 1.5rem;
+  background-color: white;
+}
+.resume-personal .preview-personal-left{
+  width: 40%;
+  text-align: end;
+}
+.resume-personal .preview-personal-left p{
+  font-size: 14px;
+}
+.resume-experience{
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
